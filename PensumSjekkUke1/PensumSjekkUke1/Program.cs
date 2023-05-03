@@ -21,7 +21,8 @@
         private static int RandomLowNumber()
         {
             Random rnd = new Random();
-            int num = rnd.Next(1, 5);
+            int num = rnd.Next(0, 5);
+            Console.WriteLine(num);
             return num;
         }
     }
