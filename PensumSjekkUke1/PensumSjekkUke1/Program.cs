@@ -10,7 +10,7 @@
                 " started binging soap operas.", " has become fixated on collecting lightbulbs."
             };
 
-            for (var i = 0; i < 99; i++)
+            while(true)
             {
                 Console.WriteLine("Who would like a new hobby?");
                 string tekst = Console.ReadLine();
@@ -22,8 +22,9 @@
         {
             Random rnd = new Random();
             int num = rnd.Next(0, 5);
-            Console.WriteLine(num);
+            //Console.WriteLine(num);
             return num;
+
         }
     }
 }
